@@ -57,7 +57,7 @@ p{
 }
 #about-me-container{
     padding-top: 5%;
-    background-image: url(image/Frame\ 57.jpg);
+    background-image: url(image/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -129,4 +129,44 @@ p{
     border-radius: 20px;
     box-shadow:10px 10px 50px rgb(130, 130, 201);
 }
+.contact{
+    background-image: url(image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(111, 111, 129);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 5%;
+}
+.form{
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 5% 5%;
+    border: 2px rgb(102, 100, 214) solid;
+    border-radius: 20px;
+    box-shadow:10px 10px 50px rgb(130, 130, 201);
+    color: rgb(80, 85, 155);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.form input{
+    width: 100%;
+    padding: 1% 2%;
+    border-radius: 50px;
+    border: 1px solid rgb(119, 83, 153);
+    box-shadow:10px 10px 50px rgb(130, 130, 201);
+}
+.form select{
+    width: 100%;
+    padding: 1% 2%;
+    margin-bottom: 5%;
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow:10px 10px 50px rgb(130, 130, 201);
+}
+
 
