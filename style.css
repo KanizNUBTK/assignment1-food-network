@@ -14,7 +14,6 @@ p{
     color: #828383;
 }
 .flexiable-container{
-    margin-top: 5%;
     display: flex;
 }
 .half-width{
@@ -24,18 +23,43 @@ p{
     margin-top: 2%;
     margin-left: 5%;
 }
-.half-width img{
+#top-image img{
     width: 80%;
     height: 100%;
 }
 .blue-color{
     color: blue;
 }
-.order-btn{
+.link-btn{
+    font-size: 20px;
     text-decoration: none;
     background-image: linear-gradient(#a8c0ff,#3f2b96);
     color: white;
     padding: 20px 40px;
     border-radius: 30px;
     box-shadow:10px 10px 50px rgb(182, 182, 230);
+}
+#person-image img{
+    width: 40%;
+    height: 100%;
+    padding-left: 40%;
+}
+#about-me{
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+#about-me h1{
+    font-size: 40px;
+}
+#about-me-container{
+    padding-top: 5%;
+    background-image: url(image/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about-me p{
+    margin-bottom: 10%;
+    text-align: justify;
 }
