@@ -168,5 +168,16 @@ p{
     border: 1px solid black;
     box-shadow:10px 10px 50px rgb(130, 130, 201);
 }
+footer{
+    background-color: black;
+    padding: 5%;
+    text-align: center;
+}
+footer h2{
+    color: #5B5B5B;
+}
+footer p{
+    color: white;
+}
 
 
