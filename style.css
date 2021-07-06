@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding-top: 5%;
 }
 h1{
     font-size: 50px;
@@ -129,7 +130,40 @@ p{
     border-radius: 20px;
     box-shadow:10px 10px 50px rgb(130, 130, 201);
 }
+.food-menu{
+    padding: 5% 5%;
+    background-image: url(image/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-bar h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(173, 154, 130);
+    font-weight:600 ;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5% 2%;
+    border-radius: 10px;
+    box-shadow:10px 10px 50px rgb(130, 130, 201);
+}
+.menu h3{
+    font-size: 20px;
+    font-weight:600 ;
+    font-family: 'Poppins', sans-serif;
+}
+.menu li{
+    font-size: 15px;
+    font-weight:400 ;
+    font-family: 'Poppins', sans-serif;
+}
 .contact{
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-image: url(image/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +174,6 @@ p{
     color: rgb(111, 111, 129);
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    padding-top: 5%;
 }
 .form{
     margin-left: 7%;
@@ -156,28 +189,37 @@ p{
 .form input{
     width: 100%;
     padding: 1% 2%;
+    margin-bottom: 2%;
     border-radius: 50px;
     border: 1px solid rgb(119, 83, 153);
     box-shadow:10px 10px 50px rgb(130, 130, 201);
 }
 .form select{
     width: 100%;
-    padding: 1% 2%;
-    margin-bottom: 5%;
+    padding:1% 2%;
+    margin-bottom: 2%;
     border-radius: 50px;
     border: 1px solid black;
     box-shadow:10px 10px 50px rgb(130, 130, 201);
 }
 footer{
     background-color: black;
-    padding: 5%;
+    padding: 3% 5% 4%;
     text-align: center;
 }
 footer h2{
-    color: #5B5B5B;
+    font-size: 30px;
+    font-weight: 600;
+    color: #aca7a7;
+    font-family: 'Poppins', sans-serif;
 }
 footer p{
     color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
-
+.copyright{
+    color: rgb(138, 132, 132);
+}
 
