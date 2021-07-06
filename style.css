@@ -106,4 +106,27 @@ p{
     padding-left: 5%;
     padding-right: 5%;
 }
+.followers{
+    width: 25%; 
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.followers h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.followers p{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -10%;
+}
+#follower-section{
+    margin: 10% 7%;
+    padding:2% 5%;
+    border-radius: 20px;
+    box-shadow:10px 10px 50px rgb(130, 130, 201);
+}
 
